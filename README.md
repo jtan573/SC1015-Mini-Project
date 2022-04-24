@@ -11,9 +11,9 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 5. Classification Trees
 
 ## Contributors
-- @jtan573
-- @i-anS
-- @geraldd_d
+- @jtan573 (Data preparation & cleaning, Data Splitting and resampling)
+- @i-anS (Logistic Regression, Classification Trees)
+- @geraldd_d (Exploratory Data Analysis)
 
 ## Problem Definition
 **The problem we are trying to solve is “Are we able to determine if an individual is likely to suffer from stroke given his/her background?”**
