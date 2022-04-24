@@ -41,19 +41,6 @@ Download the dataset needed for running the code here: https://www.kaggle.com/da
 - Logistic Regression
 - Decision Trees
 
-## Requirements
-If your python do not already come with pip, then install using the command: `sudo apt-get install python-pip`
-
-Pre-installed (Comes with Python)
-- Pandas
-- Seaborn
-- Scikit-learn
-- matplotlib
-
-May require installation:
-- Imblearn (Download using the command: `!pip install imblearn`)
-- Matplotlib (Download using the command: `pip install matplotlib`)
-
 ## Conclusion
 - Age, heart disease and hypertension has higher linear correlation with risk of getting a stroke
 - Work type, residence type and gender has lower linear correlation with risk of getting a stroke
