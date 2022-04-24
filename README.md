@@ -1,6 +1,6 @@
 # SC1015-Mini-Project
 Stroke Predictor for Mini-Project 
-![Screenshot (298)](https://user-images.githubusercontent.com/103939428/164980647-32e5ee70-3bec-4330-ae7d-f6c77d3eb91d.png)
+![Screenshot (300)](https://user-images.githubusercontent.com/103939428/164981316-224d1e27-5fe6-45f2-be0e-b43e9487a2ee.png)
 
 ## About
 This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on stroke prediction from our dataset. For detailed walkthrough, please view the source code in order from:
