@@ -3,7 +3,7 @@ Stroke Predictor for Mini-Project
 ![Screenshot (300)](https://user-images.githubusercontent.com/103939428/164981316-224d1e27-5fe6-45f2-be0e-b43e9487a2ee.png)
 
 ## About
-This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on stroke prediction from our dataset. For detailed walkthrough, please view the source code in order from:
+This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on stroke prediction from our dataset. In this repository, we are exploring oversampling methods and classification models for machine learning to create a model which solves the problem at hand. For detailed walkthrough, please view the source code in order from:
 1. Data Extraction and Cleaning
 2. Exploratory Data Analysis
 3. Data Splitting and Resampling
@@ -22,12 +22,14 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 Disease prediction has the potential to benefit stakeholders such as the government and insurance companies. Furthermore, healthcare service providers can also shift to more preventive care, not only improving patients’ quality of life but also potentially saving money in the healthcare system.
 
 **Aim:** 
-To examine two different machine learning models to predict whether a person is likely to get a stroke based on his/her background and lifestyle factors. We do this by applying supervised learning methods for stroke prediction by interpreting the dataset which include data of different types.
+To create classification models for prediction of stroke based on an individual's lifestyle and background factors by examining two different machine learning models. From which, compare and determine the better model using performance metrics such as precision, accuracy and specificity.
 
 ## Dataset Used
 **Title:** Stroke Prediction Dataset
 
 Download the dataset needed for running the code here: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
+
+*We have also uploaded the dataset ('healthcare-dataset-stroke-data.csv') in the folder titled 'data'.*
 
 ## Models Used
 - SMOTE, SMOTEENN and ADASYN Oversampling techniques
