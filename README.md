@@ -4,11 +4,16 @@ Stroke Predictor for Mini-Project
 
 ## About
 This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on stroke prediction from our dataset. In this repository, we are exploring oversampling methods and classification models for machine learning to create a model which solves the problem at hand. For detailed walkthrough, please view the source code in order from:
-1. Data Extraction and Cleaning
-2. Exploratory Data Analysis
-3. Data Splitting and Resampling
-4. Logistic Regression
-5. Classification Trees
+#### 1. Data Extraction and Cleaning
+  - In this notebook we have successfully removed duplicate values, removed anomalies, dropped unnecessary columns, remove null values, and changed the object to categorical types. The more notable adjustment to the original dataset is the removal of the null values by changing them to meaningful values based on statistics such as median and probability. For more detailed explanation, please refer to our python notebook.
+#### 2. Exploratory Data Analysis
+  - EDA helped to reveal the relationships between the variables found in the dataset and stroke rate. We employed histograms, boxplots, countplots, and correlation maps to help visualise the relationships between our predictors and response data. 
+#### 3. Data Splitting and Resampling
+  - The cleaned_data dataset was split into train and test data, in the ratio of 0.8 : 0.2. By analysing the distribution of the two classes (stroke and no_stroke) in the train set, we noticed that our dataset faced the issue of class imbalance. Therefore, we employed the use of oversampling methods such as SMOTE, SMOTEENN, and ADASYN to increase the number of samples in the minority class to mitigate the problem of misclassification.
+#### 4. Logistic Regression
+  - Logistic regression is a supervised machine learning algorithm used to model the probability of a certain class or event. It is usually used for Binary classification problems. We have employed logistic regression to solve our classification problem. To evaluate the performance of the model, we used 5 different performance metrics, including accuracy, specificity, sensitivity, precision and F1-score. 
+#### 5. Classification Trees
+  - A Decision Tree is a supervised learning algorithm. Unlike other supervised learning algorithm, the decision tree algorithm can be used to solve regression and classification problems. The goal of using a Decision Tree is to create a training model that can be used to predict the class or value of the response variable by learning simple decision rules from training data. We created our second classification model using decision trees and evaluated its performance using the same performance metrics as mentioned above. 
 
 ## Contributors
 - @jtan573 (Data preparation & cleaning, Data Splitting and resampling)
@@ -16,7 +21,7 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 - @geraldd_d (Exploratory Data Analysis)
 
 ## Problem Definition
-**The problem we are trying to solve is “Are we able to determine if an individual is likely to suffer from stroke given his/her background?”**
+- **“Are we able to determine if an individual is likely to suffer from stroke given his/her background?”**
 
 **Context:** 
 Disease prediction has the potential to benefit stakeholders such as the government and insurance companies. Furthermore, healthcare service providers can also shift to more preventive care, not only improving patients’ quality of life but also potentially saving money in the healthcare system.
