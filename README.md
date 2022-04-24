@@ -1,5 +1,6 @@
 # SC1015-Mini-Project
 Stroke Predictor for Mini-Project 
+![Screenshot (298)](https://user-images.githubusercontent.com/103939428/164980647-32e5ee70-3bec-4330-ae7d-f6c77d3eb91d.png)
 
 ## About
 This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on stroke prediction from our dataset. For detailed walkthrough, please view the source code in order from:
@@ -56,9 +57,9 @@ May require installation:
 ## Learning Points
 - Techniques to deal with null values in the raw dataset (E.g.: Removing/Filling up with mean or median/Making predictions based on probability)
 - Recognise the significance of class imbalance in datasets
-- Resampling Techniques including SMOTE and ADASYN
+- Resampling Techniques including SMOTE, SMOTEENN and ADASYN
 - Applying logistic regression and decision tree on real-life datasets
-- Performance metrics such as precision, specificity, sensitivity, and F1-score
+- Making use of performance metrics such as precision, specificity, sensitivity, and F1-score to determine the best model/oversampling method
 
 ## References
 - https://elitedatascience.com/imbalanced-classes 
