@@ -15,11 +15,6 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 #### 5. Classification Trees
   - A Decision Tree is a supervised learning algorithm. Unlike other supervised learning algorithm, the decision tree algorithm can be used to solve regression and classification problems. The goal of using a Decision Tree is to create a training model that can be used to predict the class or value of the response variable by learning simple decision rules from training data. We created our second classification model using decision trees and evaluated its performance using the same performance metrics as mentioned above. 
 
-## Contributors
-- Jaslyn Tan (Data preparation & cleaning, Data Splitting and resampling)
-- Sim Ian Leng (Logistic Regression, Classification Trees)
-- Gerald Ong (Exploratory Data Analysis)
-
 ## Problem Definition
 - **“Are we able to determine if an individual is likely to suffer from stroke given his/her background?”**
 
@@ -56,6 +51,11 @@ Download the dataset needed for running the code here: https://www.kaggle.com/da
 - Resampling Techniques including SMOTE, SMOTEENN and ADASYN
 - Applying logistic regression and decision tree on real-life datasets
 - Making use of performance metrics such as precision, specificity, sensitivity, and F1-score to determine the best model/oversampling method
+
+## Contributors
+- Jaslyn Tan (Data preparation & cleaning, Data Splitting and resampling)
+- Sim Ian Leng (Logistic Regression, Classification Trees)
+- Gerald Ong (Exploratory Data Analysis)
 
 ## References
 - https://elitedatascience.com/imbalanced-classes 
